@@ -44,7 +44,7 @@ def get_occurrences(burts, teksts):
                 if teksts[i+j] != burts[j]:
                     t = False
             if t:
-                skaits.apped(i)
+                skaits.append(i)
     # and return an iterable variable
     return skaits
 
